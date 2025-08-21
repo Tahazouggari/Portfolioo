@@ -25,7 +25,7 @@ export default function ContactPage() {
         <div className="rounded-2xl border border-neutral-200/70 dark:border-neutral-800 p-4">
           <p className="text-sm uppercase tracking-wider text-neutral-500 mb-1">LinkedIn</p>
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/taha-zouggari/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-lg font-medium underline underline-offset-4 hover:opacity-80"
