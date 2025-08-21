@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "build:static": "npm run build && npm run export"
   },
   "dependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
