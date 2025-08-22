@@ -4,7 +4,7 @@ import { Paragraph } from "@/components/Paragraph";
 
 const badges = [
   { name: "Essentiell Badge", slug: "essentiell" },
-  { name: "PCAP Badge", slug: "PCAP" },
+  { name: "PCAP Badge", slug: "pcap" },
 ];
 
 export default function BadgesPage() {

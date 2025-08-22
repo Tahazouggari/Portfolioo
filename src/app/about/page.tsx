@@ -2,6 +2,9 @@ import { Container } from "@/components/Container";
 import { Heading } from "@/components/Heading";
 import About from "@/components/About";
 import { WorldMap } from "@/components/WorldMap";
+// ✅ Ensure static export
+export const dynamic = "force-static";
+export const revalidate = false;
 
 export default function AboutPage() {
   return (

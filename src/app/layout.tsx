@@ -13,7 +13,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Taha Zouggari - Cybersecurity Enthusiast",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Taha Zouggari is a cybersecurity and e-payment engineer focused on secure systems and digital finance.",
 };
 
 export default function RootLayout({
@@ -31,7 +31,12 @@ export default function RootLayout({
       >
         <Sidebar />
         <div className="lg:pl-2 lg:pt-2 bg-gray-100 flex-1 overflow-y-auto">
-          <div className="flex-1 bg-white min-h-screen lg:rounded-tl-xl border border-transparent lg:border-neutral-200 overflow-y-auto">
+          <div
+            className={twMerge(
+              "flex-1 bg-white min-h-screen lg:rounded-tl-xl border border-transparent lg:border-neutral-200 overflow-y-auto",
+              "px-4 sm:px-6" // 👉 ajoute un peu d’espace à gauche/droite
+            )}
+          >
             {children}
             <Footer />
           </div>

@@ -114,7 +114,7 @@ const SidebarHeader = () => {
       />
       <div className="flex text-sm flex-col">
         <p className="font-bold text-primary">Taha ZOUGGARI</p>
-        <p className="font-light text-secondary">Master&apos;s student.</p>
+        <p className="font-light text-secondary">Master student</p>
       </div>
     </div>
   );

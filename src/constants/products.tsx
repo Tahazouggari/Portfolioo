@@ -23,7 +23,7 @@ export const products = [
     thumbnail: sidefolioAceternity,
     images: [sidefolioAceternity, sidefolioAceternity2],
     stack: ["Laravel", "PHP", "MySQL"], 
-    slug: "aceternity",
+    slug: "cms",
     content: (
   <div>
     <p className="text-base leading-relaxed">
@@ -59,7 +59,7 @@ export const products = [
     thumbnail: sidefolioAlgochurn,
     images: [sidefolioAlgochurn, sidefolioAlgochurn2],
     stack: ["Python", "Flask"],
-    slug: "algochurn",
+    slug: "phishing-url-detector",
     content: (
   <div>
     <p>
@@ -115,7 +115,7 @@ export const products = [
     thumbnail: parachute,
     images: [parachute],
     stack: ["Qt", "MVP"],
-    slug: "tailwindmasterkit",
+    slug: "parachute-encoder",
     content: (
       <div>
         <p><strong>ParachuteEncoder</strong> is a graphical application built with Qt that allows users to encode textual messages into binary and visualize them as stylized parachute designs, inspired by NASA&rsquo;s Perseverance rover. The tool supports standard ASCII (7-bit) and Mode 10 (10-bit with padding) encodings, and renders the message as colored sectors and tracks on a circular parachute. Users can customize the number of segments, colors, background image, and even the reference character used in encoding. The application also includes hexadecimal visualization, dynamic language switching (English/French), and a responsive, modern UI.</p>
@@ -187,7 +187,7 @@ export const products = [
     thumbnail: LCLme,
     images: [LCLwe,LCLgoogle,lclhost],
     stack: ["Python","BigQuery","Machine Learning","Data Analysis"],
-    slug: "LCl",
+    slug: "lcl-google-cloud-2024",
     content: (
       <div>
         <p>

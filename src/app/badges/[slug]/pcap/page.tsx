@@ -2,7 +2,7 @@ import { Container } from "@/components/Container";
 import { Heading } from "@/components/Heading";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react"; // <-- use Lucide icon for back arrow
+import { ArrowLeft } from "lucide-react"; 
 const challenges = [
   {
     title: "Network Analysis",
